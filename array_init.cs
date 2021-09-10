@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace hello
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] arrNum = new int[3];
+
+            arrNum[0] = 1;
+            arrNum[1] = 2;
+            arrNum[2] = 3;
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.Write("  {0}", arrNum[i]);
+            }
+
+            Console.WriteLine("\narrNum.GetType():  {0}", arrNum.GetType());
+        }
+    }
+}
